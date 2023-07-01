@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>부천삼락교회온라인출석부</title>
+    <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px;
+            background-color: #fff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            margin-bottom: 30px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-img-top {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .card-subtitle {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .card-text {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        
+        .btn {
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+        opacity: 0.8;
+    }
+    .card:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+</style>
+
+</head>
+<body>
+    
+    
+    
+    
+    
+    <div class="container">
+        <h1>부천삼락교회 온라인 출석부</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid justify-content-center"> <!-- justify-content-center 추가 -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> <!-- justify-content-center 추가 -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.samrak.net/">우리교회 홈페이지</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/channel/UCnVDzw1eEJ9HNhBzk6KF_jA">우리교회 유튜브</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAFnXthE474/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+
+          </ul>
+  <form id="prayer-form" onsubmit="submitForm()" style="text-align:left;">
+    <label for="ranch-name">이름:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+    <input type="text" id="ranch-name" required><br><br>
+  
+    <div style="display: flex; align-items: center;">
+        <label for="prayer-request" style="display: inline-block; width: 20%;">출석 및 기도제목:</label>
+        <textarea id="prayer-request" required style="width: 60%; height: 150px;" placeholder="여호와 샬롬~^^ 함께 기도해요"></textarea>
+
+    </div><br><br>
+  
+    <button id="submit-button" type="submit" style="margin: 0 auto; display: block;" data-bs-toggle="modal" data-bs-target="#submit-modal">제출</button>
+
+</form>
+
+<style>
+    button[type="submit"] {
+        margin-top: 20px;
+    }
+    
+    .modal-backdrop {
+    display: none;
+  }
+    
+</style>
+<!-- 모달 창 -->
+<div class="modal fade" id="submit-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">제출 완료</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          사랑합니다 축복합니다
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <!-- 제출 버튼 -->
+  
+  
+<script>
+    function submitForm() {
+    event.preventDefault();
+
+    var ranchName = document.getElementById("ranch-name").value;
+    var prayerRequest = document.getElementById("prayer-request").value;
+
+    var url = "https://docs.google.com/forms/d/1IQzRxexB-an6dB6SWGcBuIlcoRh1C4ffqc6LAymcVQ4/formResponse";
+    var data = "entry.1782073157=" + encodeURIComponent(ranchName) + "&entry.1403913840=" + encodeURIComponent(prayerRequest);
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", url);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.send(data);
+
+    document.getElementById("prayer-form").reset();
+    document.getElementById("submit-button").innerHTML = "제출되었습니다.";
+    document.getElementById("submit-button").disabled = true;
+
+    // 모달 창 띄우기
+    var myModal = new bootstrap.Modal(document.getElementById('submit-modal'), {
+        keyboard: false
+    })
+    myModal.show()
+}
+
+</script>
+
+  
+</body>
+
+</html>
